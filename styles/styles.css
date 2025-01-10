@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Shared Style */
+.secondary-bg {
+  background-color: #fff8f3;
+}
+.text-primery {
+  color: #fd6e0a;
+}
+.Dark-1 {
+  color: #181818;
+}
+.Dark-2 {
+  color: #474747;
+}
+.Dark-3 {
+  color: #757575;
+}
+.btn-primery {
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 5px;
+}
+.section-title {
+  color: #181818;
+  font-family: "Open Sans", serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+.section-description {
+  padding: 0 130px;
+  color: #757575;
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+}
+.text-alignment {
+  text-align: center;
+}
+/* Header Style */
+.header {
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* Nav Style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+nav .nav-tittle {
+  font-family: "Open Sans", serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 51px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner Styles */
+.banner-grettings {
+  font-family: "Open Sans", serif;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 85px;
+  margin-bottom: 0;
+}
+
+.banner-descriptn {
+  font-family: "Open Sans", serif;
+  font-size: 18px;
+}
+.banner-img-pic {
+  height: 676px;
+  width: 584px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18px 0 238px;
+}
+.banner-content {
+  width: 691px;
+  height: 356px;
+}
+main {
+  margin: 130px auto;
+  max-width: 1140px;
+}
+.about {
+  padding: 75px 156px 0;
+  height: 500px;
+  text-align: center;
+}
+.about-items {
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.item-description {
+  color: #474747;
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-title {
+  color: #757575;
+  font-family: "Open Sans", serif;
+  font-size: 20px;
+}
+.skills {
+  margin: 130px 0;
+  /* padding: 0 130px; */
+}
+/* skill container style */
+.skill-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 32px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+.skill-description {
+  margin-top: 0;
+  font-size: 16px;
+  /* padding: 33px; */
+}
+/* Resume section container */
+.resume-title {
+  font-size: 35px;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  margin-bottom: 59px;
+  color: #474747;
+}
+.resume-column-title {
+  font-size: 30px;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-sub-title {
+  font-size: 20px;
+  font-family: "Open Sans", serif;
+  font-weight: 600px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+.experience-description {
+  color: #757575;
+}
+.resume hr {
+  margin: 20px 0;
+}
+.download-btn {
+  margin-top: 50px;
+}
+/* Footer Section Style */
+footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 110px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-title {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Open Sans", serif;
+  color: #181818;
+}
+.footer-description {
+  width: 562px;
+  margin-bottom: 40px;
+}
+footer input[type="text"] {
+  padding: 0 18px;
+  height: 64px;
+  width: 461px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+footer input[type="email"] {
+  padding: 0 18px;
+  height: 64px;
+  width: 461px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+footer textarea {
+  padding: 18px;
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
